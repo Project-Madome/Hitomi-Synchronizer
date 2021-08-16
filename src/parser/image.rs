@@ -98,7 +98,7 @@ impl File {
             let mut n: u32 = 0;
 
             debug!("x {}", x);
-            if x < 0x80 {
+            if x < 0x88 {
                 n = 1;
             }
             if x < 0x44 {
