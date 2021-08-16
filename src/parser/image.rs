@@ -101,7 +101,7 @@ impl File {
             if x < 0x80 {
                 n = 1;
             }
-            if x < 0x40 {
+            if x < 0x44 {
                 n = 2;
             }
             debug!("n {}", n);
